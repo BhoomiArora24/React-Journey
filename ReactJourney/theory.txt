@@ -1,0 +1,20 @@
+What is the use of react?
+-let's know this through an example if we take instagram and 
+-let's say for messages current messages showing were 8 and then someone 9th personn messages 
+-but we will not be able to see that message until we refresh the whole page this happens when we create things in normal javascript
+
+-Now react js comes in picture
+-- it has a component based architecture through which only that component reloads instead of the whole website/page
+-so if the mesg gets updated only the msg component will get updated rest all will remain the same
+
+
+
+-LIBRARY-- It is used to give a feature to the particular website
+-one feature in every library
+    --GSAP-Animation
+    --Lenis- for smooth scrolling
+    --ReactJs- for creating Ui
+
+-FRAMEWORK-- gives everything in one form inbuilt
+    --NextJs
+    --Angular 
