@@ -18,3 +18,12 @@ What is the use of react?
 -FRAMEWORK-- gives everything in one form inbuilt
     --NextJs
     --Angular 
+
+
+
+JSX--- combination of HTML + JAVASCRIPT
+to write html inside JAVASCRIPT
+
+function can be called in two ways 
+1> <functionnn /> preferred in react
+2> functionnn()
