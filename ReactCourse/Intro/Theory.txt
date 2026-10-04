@@ -17,3 +17,20 @@ library(everything seperated like this library will do this work and more )
 Framework(everything inbuilt there is not too much customisation)
     --Next Js
     --Angular
+
+
+
+Real Dom--- tree like structure of html
+problem? 
+user ne koi button element me kuch change kiya to user expects to update just the button element but it does not happen this way it updates the whole dom --- this happens in real dom
+
+problem resolved--- virtual dom
+it creates one dom usually rest depends on code
+jaise button ke click pe h1 ko click krna h to ye changes krta h then compare krta h use real dom se or jo bhi changes honge vo apply krdega
+isme sirf vhi element update hoga jisme change hona hoga jase yha pe h1 change hoga
+
+
+jsx--- combination of js + html
+
+
+vite-- bundler -- tool which helpd in creating folder
