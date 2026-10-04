@@ -1,0 +1,19 @@
+What is react js?
+It is a js --library-- used to create UI(frontend) basically complex frontend
+-- it is created by Meta(Facebook) in 2013
+
+--Earlier as frontend created by html css and when we wanted to update anything on facebook 
+for eg: there is a like option which currently has 24 likes and someone else also liked your post so it should show tyhere when anyone likes the post but it didn't showed it at that time we need to refresh the whole page to see the updated value of likes or to even get a notification for that which creates an issue with user experience
+
+-- now what should actually happen if im clicking on likes we recieve a notification so instead of updating the whilw page it should only update the notification component --- this is done by react js
+
+
+library(everything seperated like this library will do this work and more )
+    --GSAP(moving elements)
+    --Lenis(smooth scrolling)
+    --React Js(UI creation)
+
+
+Framework(everything inbuilt there is not too much customisation)
+    --Next Js
+    --Angular
