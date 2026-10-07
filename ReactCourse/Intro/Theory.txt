@@ -34,3 +34,21 @@ jsx--- combination of js + html
 
 
 vite-- bundler -- tool which helpd in creating folder
+
+me------- React ---------website
+m chahti hu ki m sb kam kru apni website ka koi varibale change krna h kuch bhi krna h bur can't happen coz we have a vicholia that is react vo kehta h mujhe btao m krunga to hm react ko kam btate h vo jake website m change krta fir data bhi agar kuch ho to ya kuch bhi vo pehlew react ke pass ata h then hmare pass
+that's where hooks steps in being a hero and does all our work and become mahan but asliyat me they're nanhi si jaan
+
+
+useState--states ko change krta h jaise ek input filed khali h to vo uski ek state hogyi or then hmne usme kuch type krdiya vo uski dusri state hogyi to aise uski state change hogyi
+
+useEffect-- jo apka main fuction chlra h react ka puch process chlra h side by side ye use effect apna kam krta rhega without disturbing
+side m mujhe koi function chlana h kisi component ko mount unmount krna h ya whatever
+
+useRef--kisi dom element ko select krne ka kam krta h like pehle hm document.querybla bla likhte the or khud se select kre the but useRef from react kehta h me krunga
+
+useContext-- globall context manage jaise hme data bahot sari file m bhejna tha to hm us data ko KISI EK FILE M RKH SKTE H  and use global nkr skte h taki hr file component ya jo bhi use kr ske
+
+useReducer--to manage complex things like authorizattion etc
+
+useMemo/useCallback -- optimization , manages rerenders, etc
