@@ -1,20 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react'
+import StateChange from './components/stateChange'
+import Counter from './components/Counter'
+import Adv from './components/Adv'
 
 const App = () => {
-  const [a, setA] = useState(20);
-  //a -read
-  //setA--change
-
-  const [users, setUsers] = useState([10,20,30]);
-
-  function changeA(){
-    setA(30);
-    setUsers([30,40,50]);
-  }
   return (
     <div>
-      <h1>Value of a is {a} {users}</h1>
-      <button onClick={changeA}>Click</button>
+      <StateChange />
+      <Counter />
+      <Adv />
     </div>
   )
 }
