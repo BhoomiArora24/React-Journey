@@ -42,8 +42,11 @@ that's where hooks steps in being a hero and does all our work and become mahan 
 
 useState--states ko change krta h jaise ek input filed khali h to vo uski ek state hogyi or then hmne usme kuch type krdiya vo uski dusri state hogyi to aise uski state change hogyi
 
-useEffect-- jo apka main fuction chlra h react ka puch process chlra h side by side ye use effect apna kam krta rhega without disturbing
+useEffect-- jo apka main fuction chlra h react ka kuch process chlra h side by side ye use effect apna kam krta rhega without disturbing
 side m mujhe koi function chlana h kisi component ko mount unmount krna h ya whatever
+--side by side kam krta rhega react ke render procedure ko disturb ni krega
+--what basically happens is react render and those sideEffects can't work together to pehle react ka rendering procedure pura chl jata h and then uske bad those useEffects (sideEffects) work
+--so we use useEffect to run the things that are in sideEffects queue /microtask queue
 
 useRef--kisi dom element ko select krne ka kam krta h like pehle hm document.querybla bla likhte the or khud se select kre the but useRef from react kehta h me krunga
 
