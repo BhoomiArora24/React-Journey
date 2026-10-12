@@ -4,17 +4,17 @@ import axios from 'axios';
 const App = () => {
 
   const [img, setImg] = useState([]);
-  const [idx, setIdx] = useState(1);
+  const [index, setIndex] = useState(1);
 
   const getData = async () => {
-    const response = await axios.get('https://picsum.photos/v2/list?page=2&limit=15');
+    const response = await axios.get(`https://picsum.photos/v2/list?page=${index}&limit=15`);
     // const responsee = await axios.get('https://picsum.photos/v2/list', {username: 'Navya', password:'jfg'});
     setImg(response.data);
   }
 
   useEffect(function(){
     getData();
-  },[])
+  },[index])
 
   let printImg = 'No user availaible'
 
@@ -33,6 +33,7 @@ const App = () => {
       )
     })
   }
+
   return (
     <div className='bg-black h-screen text-white'>
       <div className='flex flex-wrap gap-4 p-2'>
@@ -41,12 +42,13 @@ const App = () => {
 
       <div className='flex justify-center items-center p-4 gap-6'>
         <button onClick={function(){
-          if(idx > 1){
-            setIdx(idx-1);
+          if(index > 1){
+            setIndex(index-1);
           }
         }} className='bg-amber-400 text-black rounded px-4 py-2 font-semibold text-sm cursor-pointer active:scale-95'>Prev</button>
+        <h4>Page {index}</h4>
         <button onClick={function(){
-          setIdx(idx+1);
+          setIndex(index+1);
         }} className='bg-amber-400 text-black rounded px-4 py-2 font-semibold text-sm cursor-pointer active:scale-95'>Next</button>
       </div>
     </div>

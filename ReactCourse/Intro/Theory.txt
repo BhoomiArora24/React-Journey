@@ -59,3 +59,12 @@ useMemo/useCallback -- optimization , manages rerenders, etc
 
 Why uppercase letter for the start of file name for React components?
 React uses capitalization to distinguish your custom components from built-in HTML elements.
+
+Roting is not in built in react therefore we use react router dom library for it
+--it gives multiple router
+BrowserRouter-- allows to route in browser well and everything works on client based routing
+stores in browser
+
+HashedRouter?-- used rarely
+
+MemoryRouter-- stores things in memory
