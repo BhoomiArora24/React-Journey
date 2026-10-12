@@ -1,20 +1,12 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
+import Heyy1 from './components/heyy1'
+import Heyy2 from './components/heyy2'
 
 const App = () => {
-
-  const [num, setNum] = useState(0);
-
-  useEffect(function(){
-    console.log('useEffect is running...')
-  },[num])//jb jb num ki valye change ho tb tb chle-- cox num is there as dependency
-
   return (
     <div>
-      <h1>{num}</h1>
-      <button onClick={() =>{
-        setNum(num + 1);
-      }}></button>
+      <Heyy1 />
+      <Heyy2 />
     </div>
   )
 }
