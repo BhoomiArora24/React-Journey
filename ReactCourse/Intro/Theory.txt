@@ -60,11 +60,31 @@ useMemo/useCallback -- optimization , manages rerenders, etc
 Why uppercase letter for the start of file name for React components?
 React uses capitalization to distinguish your custom components from built-in HTML elements.
 
-Roting is not in built in react therefore we use react router dom library for it
+Routing is not in built in react therefore we use react router dom library for it
 --it gives multiple router
 BrowserRouter-- allows to route in browser well and everything works on client based routing
 stores in browser
+--uses the browser's History API to keep your React UI synchronized with the current URL.
+--Each URL can display a different React component, even though your application can run from the same underlying HTML document.
+
+Does BrowserRouter store things in the browser?
+Your understanding is close, but let's correct one detail.
+BrowserRouter does not store all your routes or page components in browser storage such as localStorage.
+Instead, it uses the browser's URL and session history.
+- URL: Identifies the current location, such as /products.
+- History API: Allows navigation between entries using methods such as pushState() and replaceState().
+- Back and Forward: Browser history events allow React Router to synchronize the UI with previous or next locations.
 
 HashedRouter?-- used rarely
 
 MemoryRouter-- stores things in memory
+--MemoryRouter keeps its navigation history inside JavaScript memory, rather than synchronizing routes with the browser's URL bar.
+Why use MemoryRouter?
+It is particularly useful for:
+- Testing: Testing components that depend on React Router without changing the real browser URL.
+- Embedded interfaces: Applications that manage navigation internally rather than through the browser address bar.
+- Non-browser-like environments: Some environments where browser history is unavailable or not the desired navigation mechanism.
+
+
+--ab data upar se niche to jata h --props drilling
+niche se upar kaise jaega??

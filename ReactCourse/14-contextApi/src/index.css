@@ -1,0 +1,18 @@
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.nav{
+  display: flex;
+  background-color: lightgreen;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.nav2{
+  display: flex;
+  gap: 30px;
+}
+
