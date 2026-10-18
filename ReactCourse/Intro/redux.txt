@@ -1,0 +1,15 @@
+React js library helps to create ui
+
+--Redux
+-data centralize
+-state management
+
+limitations
+-syntax(very difficult to understand)
+-very long boiler plate
+-setup is very time-taking
+therefore redux 2.0 was created
+--name redux toolkit
+
+
+Redux Architecture
