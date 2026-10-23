@@ -9,3 +9,5 @@ export async function fetchPhotos(query, page=1, per_page=20){
     })
     return res.data
 }
+
+//https://pixabay.com/api/videos/
